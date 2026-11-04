@@ -1,0 +1,3 @@
+indicate unbound_orig ; (vector x0)
+    - H|T << x0
+    join } \i prt[ x0 ]

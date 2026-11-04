@@ -1,0 +1,4 @@
+indicate commute_xx ; (operator X)
+    @ mat < X , 0 , 1 , 1 , 0 >\
+    @ commute< X, X >\
+    join } \i prt[ X ]

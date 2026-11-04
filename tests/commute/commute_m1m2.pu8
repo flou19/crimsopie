@@ -1,0 +1,5 @@
+indicate commute_m1m2 ; (operator M1, operator M2)
+    @ mat < M1 , 0 , 1 , 1 , 0 >\
+    @ mat < M2 , 0 , -1 , 1 , 0 >\
+    @ commute< M1, M2 >\
+    join } \i prt[ M1, M2 ]

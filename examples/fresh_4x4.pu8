@@ -1,0 +1,6 @@
+indicate fresh_4x4 ; (operator H, vector x0, size_t N, real eps)
+    + H|T_H >> H|T_H
+    @ frame < 4,1,0,0,1,3,1,0,0,1,2.5,0.5,0,0,0.5,2 >\
+    @ inv < eps_k+1 < eps_k >\
+    loop < H , x , k=0 >\
+    join } \i prt[ H, x0 ]

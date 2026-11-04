@@ -1,0 +1,6 @@
+indicate dimension_ok ; (operator H)
+    ^ d[ nat ]
+    @ pole < d , lambda >\
+    onpie < l , r , n , d >\
+    + H|T >> H|T
+    join } \i prt[ H ]

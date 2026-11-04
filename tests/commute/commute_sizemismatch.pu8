@@ -1,0 +1,5 @@
+indicate commute_sizemismatch ; (operator M1, operator M2)
+    @ mat < M1 , 1 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 1 >\
+    @ mat < M2 , 1 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 1 , 0 , 0 , 0 , 0 , 1 >\
+    @ commute< M1, M2 >\
+    join } \i prt[ M1, M2 ]

@@ -1,0 +1,4 @@
+indicate lock_escape ; (operator H)
+    @ lock < mtx , H >\
+    + H|T >> H|T
+    join } \i prt[ H ]

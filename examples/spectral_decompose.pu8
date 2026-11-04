@@ -1,0 +1,6 @@
+indicate spectral_decompose ; (operator H)
+    + H|T >> H|T
+    decompose < 2 , 2 , 1 , blocks >\
+    disjoint < act , A , B , C , D >\
+    @ frame < 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 >\
+    join } \i prt[ H ]

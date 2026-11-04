@@ -1,0 +1,5 @@
+indicate conflicting_operators ; (operator H)
+    decompose < 1 , 2 , 1 , d >\
+    + H|T >> H|T
+    + H|T >> H|T
+    join } \i prt[ H ]

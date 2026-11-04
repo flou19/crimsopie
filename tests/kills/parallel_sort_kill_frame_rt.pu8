@@ -1,0 +1,14 @@
+indicate parallel_sort_kill_frame_rt ; (operator H5, operator H9)
+    \*yG ? P[ n, d ] /yG*
+    + H9|T9 >> H9|T
+    # H9
+    onpie< l, r, n, d >\
+    merge< H1, H2, H3, T1-T2-T3, P, d >\
+    pivot< H1, H2, H3, P >\
+    live< act, H5, H6, H7 >\
+    @ frame < H9 >\
+    @ lock < mtx, H5 >\
+    + H5|T5 >> H5|T
+    @ unlock < mtx, H5 >\
+    gath } \i prt[ H5, H6, H7, T5-T6-T7, P ]
+    join } \i prt[ H5, H9 ]

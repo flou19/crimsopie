@@ -1,0 +1,5 @@
+indicate parallel_sort_kill_lock ; (operator H5)
+    \*yG ? P[ n, d ] /yG*
+    @ lock < mtx, H5 >\
+    + H5|T5 >> H5|T
+    join } \i prt[ H5 ]

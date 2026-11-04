@@ -1,0 +1,4 @@
+indicate commute_unbound ; (operator M2)
+    @ mat < M2 , 1 , 0 , 0 , 1 >\
+    @ commute< M_unknown, M2 >\
+    join } \i prt[ M2 ]

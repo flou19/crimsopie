@@ -1,0 +1,5 @@
+indicate parallel_sort_kill_live ; (operator H5)
+    \*yG ? P[ n, d ] /yG*
+    + H5|T5 >> H5|T
+    + H5|T5 >> H5|T
+    join } \i prt[ H5 ]

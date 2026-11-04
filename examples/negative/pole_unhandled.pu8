@@ -1,0 +1,4 @@
+indicate pole_unhandled ; (operator H)
+    ^ d[ nat ]
+    + H|T >> H|T
+    join } \i prt[ H ]

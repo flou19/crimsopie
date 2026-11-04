@@ -1,0 +1,6 @@
+indicate decompose_depth0 ; (operator H)
+    ^ d[ 0 ]
+    + H|T >> H|T
+    decompose < 1 , 1 , 1 , d >\
+    disjoint < act , A , B >\
+    join } \i prt[ H ]

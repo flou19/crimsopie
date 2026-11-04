@@ -1,0 +1,4 @@
+indicate linearity_violation ; (operator H)
+    + H|T >> H|T
+    + H|T >> H|T
+    join } \i prt[ H ]

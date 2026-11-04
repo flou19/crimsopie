@@ -1,0 +1,8 @@
+indicate parallel_sort_nolive ; (operator H, operator act)
+    merge H
+    pivot H
+    @ lock < act , H >\
+    + H|T >> H|T
+    + H|T >> H|T
+    @ unlock < act , H >\
+    join } \i prt[ H, act ]

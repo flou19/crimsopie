@@ -1,0 +1,7 @@
+indicate noncommutative_pair ; (operator H1, operator H2)
+    @ mat < H1 , 0 , 1 , 1 , 0 >\
+    @ mat < H2 , 0 , -1 , 1 , 0 >\
+    @ commute < H1 , H2 >\
+    + H1|T >> H1|T
+    + H2|T >> H2|T
+    join } \i prt[ H1, H2 ]

@@ -1,0 +1,5 @@
+indicate power_iteration_float ; (operator H, vector x0, size_t N, real eps)
+    + H|T_H >> H|T_H
+    @ frame < 2.5,-1.0,0.0,0.0,3.7,0.0,0.0,0.0,4.2 >\
+    @ inv < eps_k+1 < eps_k >\
+    join } \i prt[ H, x0 ]

@@ -1,0 +1,4 @@
+indicate spectral_decompose_2x1 ; (operator H)
+    + H|T >> H|T
+    decompose < 2 , 1 , 1 , blocks21 >\
+    join } \i prt[ H ]

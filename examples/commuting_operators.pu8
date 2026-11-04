@@ -1,0 +1,11 @@
+indicate commuting_operators ; (operator H1, operator H2)
+    @ mat < H1, 1,0, 0,2 >\
+    @ mat < H2, 3,0, 0,4 >\
+    @ commute< H1, H2 >\
+    @ lock < mtx, H1 >\
+    + H1|T1 >> H1|T
+    @ unlock < mtx, H1 >\
+    @ lock < mtx, H2 >\
+    + H2|T2 >> H2|T
+    @ unlock < mtx, H2 >\
+    join } \i prt[ H1, H2 ]

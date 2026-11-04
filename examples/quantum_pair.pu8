@@ -1,0 +1,9 @@
+indicate quantum_pair ; (operator X, operator P, real hbar)
+    + mtx|Tm >> mtx|Tm
+    @ lock< mtx, X >\
+        + X|Tx >> X|Tx
+    @ unlock< mtx, X >\
+    @ lock< mtx, P >\
+        + P|Tp >> P|Tp
+    @ unlock< mtx, P >\
+    join } \i prt[ X, P, mtx ]

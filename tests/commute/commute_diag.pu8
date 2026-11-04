@@ -1,0 +1,5 @@
+indicate commute_diag ; (operator D1, operator D2)
+    @ mat < D1 , 1 , 0 , 0 , 2 >\
+    @ mat < D2 , 3 , 0 , 0 , 4 >\
+    @ commute< D1, D2 >\
+    join } \i prt[ D1, D2 ]

@@ -1,0 +1,5 @@
+indicate dimension_underflow_k ; (operator H)
+    ^ k[ 0 ]
+    onpie < l , r , n , k >\
+    + H|T >> H|T
+    join } \i prt[ H ]
